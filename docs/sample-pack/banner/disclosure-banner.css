@@ -1,0 +1,11 @@
+/* AI disclosure banner. Colours: #b83a07 / #0e1b1d / #eeebe3. */
+.kok-aid-banner{font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;background:#0e1b1d;color:#eeebe3;border-bottom:4px solid #b83a07;padding:12px 20px}
+.kok-aid-banner__inner{max-width:72rem;margin:0 auto;display:flex;gap:14px;align-items:flex-start}
+.kok-aid-banner__tag{flex:none;font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:#b83a07;color:#eeebe3;padding:2px 8px;margin-top:2px}
+.kok-aid-banner p{margin:0 0 4px}
+.kok-aid-banner p:last-child{margin:0}
+.kok-aid-banner a{color:#eeebe3;text-decoration:underline;text-underline-offset:3px}
+.kok-aid-banner a:focus-visible,.kok-aid-badge:focus-visible{outline:3px solid #b83a07;outline-offset:2px}
+.kok-aid-badge{display:inline-block;font:700 12px/1.4 system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;border:2px solid #b83a07;color:#0e1b1d;background:#eeebe3;padding:1px 7px;margin:0 8px 8px 0;vertical-align:middle}
+.kok-aid-chat{font:14px/1.45 system-ui,sans-serif;border-left:4px solid #b83a07;background:#eeebe3;color:#0e1b1d;padding:8px 12px;margin:0 0 10px}
+@media (forced-colors:active){.kok-aid-banner,.kok-aid-badge,.kok-aid-chat{border:2px solid CanvasText}}

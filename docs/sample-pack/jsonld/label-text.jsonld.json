@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "name": "AI-generated text on Harbour & Pine Studio",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Harbour & Pine Studio",
+    "url": "https://example.com"
+  },
+  "creator": {
+    "@type": "SoftwareApplication",
+    "name": "Pine",
+    "applicationCategory": "AI system"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "aiGenerated",
+      "value": true
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "digitalSourceType",
+      "value": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+    }
+  ],
+  "disclaimer": "This content was generated or manipulated by an AI system."
+}
